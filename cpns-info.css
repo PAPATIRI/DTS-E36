@@ -1,0 +1,54 @@
+/* CPNS INFO SECTION */
+.cpns-info-wrapper {
+  padding: 0 10%;
+}
+
+.cpns-info-wrapper .heading h1 {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 500;
+  color: #2f8be1;
+  font-style: normal;
+  margin-bottom: 15px;
+}
+
+.cpns-info-wrapper .heading h3 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #666;
+  font-style: normal;
+}
+
+.card-info-cpns {
+  margin: 50px 0;
+}
+
+.card-info-cpns .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cards .card {
+  width: 30%;
+  box-shadow: 0 1px 5px 1px #888888;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.cards .card .card-heading {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  font-style: normal;
+  margin: 15px 0;
+}
+
+.cards .card .card-desc {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400px;
+  font-style: normal;
+  color: #666;
+}

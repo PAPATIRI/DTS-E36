@@ -1,0 +1,32 @@
+/* button css */
+.btn {
+  color: #fff;
+  padding: 0 35px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 38px;
+  font-weight: 700;
+}
+
+.daftar {
+  background-color: #2f8be1;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.daftar:hover {
+  background-color: purple;
+}
+
+.login {
+  border: 1px solid #2f8be1;
+  border-radius: 20px;
+  margin-left: 10px;
+  color: #2f8be1;
+  text-transform: uppercase;
+}
+
+.login:hover {
+  background-color: #2f8be1;
+  color: #fff;
+}

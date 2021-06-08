@@ -1,0 +1,38 @@
+/* header section */
+header .container {
+  position: fixed;
+  height: 70px;
+  background-color: #fff;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.container .header-left .logo {
+  color: #2f8be1;
+  float: left;
+  padding: 0 30px;
+  width: 130px;
+}
+
+.container .header-right {
+  padding: 20px 0;
+}
+
+.container .header-right a {
+  float: right;
+  color: #2f8be1;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: 40px;
+}
+
+.container .menu-icon {
+  color: #2f8be1;
+  float: right;
+  font-size: 35px;
+  padding: 21px 0;
+  display: none;
+  margin-right: 50px;
+}

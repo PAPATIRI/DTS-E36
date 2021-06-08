@@ -1,0 +1,59 @@
+/* untuk tablet */
+@media all and (max-width: 1200px) {
+  .container .menu-icon {
+    display: block;
+  }
+
+  .container .header-right {
+    display: none;
+  }
+
+  /* main section */
+
+  main .container {
+    background-size: 600px 500px;
+  }
+  .card-info-cpns .cards {
+    flex-direction: column;
+  }
+
+  .cards .card {
+    width: 100%;
+    box-shadow: 0 1px 5px 1px #888888;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/* untuk smartphone */
+@media all and (max-width: 670px) {
+  header .container {
+    padding: 0;
+  }
+
+  .container .header-left .logo {
+    padding: 0 40px;
+  }
+
+  main .container {
+    background-size: 400px 300px;
+  }
+
+  main .top-wrapper {
+    flex-direction: column;
+    height: 400px;
+  }
+
+  .container .top {
+    width: 100%;
+  }
+
+  .daftar {
+    margin-bottom: 15px;
+  }
+
+  .login {
+    margin-left: 0;
+  }
+}
