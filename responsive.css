@@ -24,6 +24,21 @@
     border-radius: 10px;
     margin-bottom: 10px;
   }
+
+  /* benefit siap cpns */
+
+  .benefit-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .benefit-wrapper .heading-benefit {
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .benefit-wrapper .cards-benefit .card-benefit {
+    width: 100%;
+  }
 }
 
 /* untuk smartphone */
