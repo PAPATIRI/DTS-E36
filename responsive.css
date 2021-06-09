@@ -1,5 +1,8 @@
 /* untuk tablet */
 @media all and (max-width: 1200px) {
+  header .container {
+    background-color: #fff;
+  }
   .container .menu-icon {
     display: block;
   }
@@ -15,6 +18,10 @@
   }
   .card-info-cpns .cards {
     flex-direction: column;
+  }
+
+  .cpns-info-wrapper {
+    margin-bottom: 50px;
   }
 
   .cards .card {
@@ -38,6 +45,7 @@
 
   .benefit-wrapper .cards-benefit .card-benefit {
     width: 100%;
+    margin-bottom: 10px;
   }
 }
 
@@ -55,6 +63,9 @@
     background-size: 400px 300px;
   }
 
+  .cpns-info-wrapper {
+    margin-bottom: 0;
+  }
   main .top-wrapper {
     flex-direction: column;
     height: 400px;
