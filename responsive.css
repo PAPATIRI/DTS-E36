@@ -54,9 +54,21 @@
     padding: 20px;
     width: 50%;
   }
+
+  /* untuk testimoni */
+  .cards-testimoni .card {
+    width: 50%;
+  }
+  .cards-testimoni .card p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* number of lines to show */
+    -webkit-box-orient: vertical;
+  }
 }
 
-/* untuk smartphone */
+/* UNTUK MOBILE RESPONSIVE */
 @media all and (max-width: 670px) {
   header .container {
     padding: 0;
@@ -99,5 +111,23 @@
     padding: 20px;
     width: 100%;
     margin: 5px;
+  }
+
+  /* untuk testimoni section */
+
+  .cards-testimoni {
+    flex-direction: column;
+  }
+
+  .cards-testimoni .card {
+    width: 100%;
+  }
+
+  .cards-testimoni .card p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* number of lines to show */
+    -webkit-box-orient: vertical;
   }
 }
