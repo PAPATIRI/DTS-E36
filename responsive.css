@@ -130,4 +130,43 @@
     -webkit-line-clamp: 5; /* number of lines to show */
     -webkit-box-orient: vertical;
   }
+
+  /* footer section */
+
+  footer {
+    text-align: center;
+    flex: 1;
+  }
+  .footer-left {
+    float: none;
+  }
+  .footer-left h4 {
+    font-size: 12px;
+    line-height: auto;
+    margin-top: 0;
+  }
+
+  .footer-left .logo {
+    float: none;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 0;
+  }
+
+  .footer-right {
+    float: none;
+    padding-right: 25px;
+  }
+
+  .footer-right li {
+    font-size: 12px;
+    line-height: auto;
+    margin-top: 5px;
+  }
+
+  .footer-right .subtitle {
+    font-size: 14px;
+    margin-top: 10px;
+  }
 }

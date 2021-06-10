@@ -1,9 +1,10 @@
 /* footer section */
 footer {
-  background-color: aqua;
+  background-color: #f3f9ff;
   color: #666;
-  height: 200px;
-  padding: 10px 20px;
+  padding: 10px 40px;
+  height: 250px;
+  flex: 1;
 }
 
 .footer-left {
@@ -14,7 +15,6 @@ footer {
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
-
   margin-top: 70px;
 }
 
@@ -22,12 +22,29 @@ footer {
   float: left;
   margin-top: 40px;
   margin-right: 20px;
+  width: 100px;
+  height: 100px;
 }
 
 .footer-right {
   float: right;
 }
 
+.footer-right li {
+  font-size: 16px;
+  line-height: 10px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.footer-right .subtitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: #245681;
+  padding-top: 20px;
+}
+
 .fa {
-  margin-right: 10px;
+  font-size: 24px;
+  padding-right: 10px;
 }
