@@ -2,6 +2,7 @@
 @media all and (max-width: 1200px) {
   header .container {
     background-color: #fff;
+    color: #2f8be1;
   }
   .container .menu-icon {
     display: block;
@@ -47,6 +48,12 @@
     width: 100%;
     margin-bottom: 10px;
   }
+
+  /* untuk try out online jadwal section */
+  .cards-tryout .card {
+    padding: 20px;
+    width: 50%;
+  }
 }
 
 /* untuk smartphone */
@@ -81,5 +88,16 @@
 
   .login {
     margin-left: 0;
+  }
+
+  /* tryout online jadwal section */
+  .cards-tryout {
+    flex-direction: column;
+  }
+
+  .cards-tryout .card {
+    padding: 20px;
+    width: 100%;
+    margin: 5px;
   }
 }

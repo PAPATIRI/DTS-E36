@@ -1,0 +1,78 @@
+.tryout-wrapper {
+  margin-top: 100px;
+  padding: 100px 10%;
+  height: 100vh;
+  background-color: #f3f9ff;
+  flex: 1;
+}
+
+.tryout-wrapper .heading {
+  text-align: center;
+}
+
+.tryout-wrapper .heading h1 {
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 500;
+  color: #5e5f5f;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.heading h2 {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 38px;
+  color: #999;
+  margin-bottom: 50px;
+}
+
+.cards-tryout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cards-tryout .card {
+  box-shadow: 0 1px 10px 1px #888;
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.cards-tryout .card:hover {
+  transform: scale(1.05);
+}
+
+.cards-tryout .card p:nth-child(1) {
+  color: #2f8be1;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.cards-tryout .card h3 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #333;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.cards-tryout .card h4,
+.cards-tryout .card p {
+  color: #666;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
